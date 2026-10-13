@@ -1,0 +1,79 @@
+{
+  "receipts": [
+    {
+      "attribution": {
+        "authors": [
+          "matrix-mult-exponent contributors"
+        ],
+        "title": "Elementary scalar multiplication: independent baseline encoding",
+        "url": "https://github.com/jackal092927/matrix-mult-exponent",
+        "year": 2026
+      },
+      "attribution_verified_by_validator": false,
+      "certificate": "certificates/baselines/naive-1x1-rank1.json",
+      "certificate_sha256": "c89c1ae7e180e358710019f02a69e1bc66e6f38191a505a6dea26193c18a884d",
+      "classification_declared": "known_baseline",
+      "coefficients_checked": 1,
+      "declared_rank": 1,
+      "dimensions": {
+        "k": 1,
+        "m": 1,
+        "n": 1
+      },
+      "domain": "Q",
+      "identity": "verified_exact",
+      "manifest": "submissions/naive-1x1-rank1.json",
+      "manifest_sha256": "561272eda6fb277291387d8445d50d1fc978e61d412c12176de7a32594820ad7",
+      "minimal_rank_proven": false,
+      "new_exponent_record_certified": false,
+      "rank_statement": "tensor_rank_over_Q <= 1",
+      "receipt_format": "matrix-mult-receipt-v1",
+      "square_recursion_bound": null,
+      "status": "accepted_exact_identity",
+      "validator_sha256": "77d95473ba4e845579568b03036cbba7ee7320079cfda008b15bec0b3022282c"
+    },
+    {
+      "attribution": {
+        "authors": [
+          "Volker Strassen"
+        ],
+        "title": "Gaussian elimination is not optimal",
+        "url": "https://doi.org/10.1007/BF02165411",
+        "year": 1969
+      },
+      "attribution_verified_by_validator": false,
+      "certificate": "certificates/baselines/strassen-2x2-rank7.json",
+      "certificate_sha256": "84c5a6ba17ae8e9f44eb322529a94836f223df84bbe7ce54120fee3d2eb5da7e",
+      "classification_declared": "known_baseline",
+      "coefficients_checked": 64,
+      "declared_rank": 7,
+      "dimensions": {
+        "k": 2,
+        "m": 2,
+        "n": 2
+      },
+      "domain": "Q",
+      "identity": "verified_exact",
+      "manifest": "submissions/strassen-2x2-rank7.json",
+      "manifest_sha256": "bbe66ab0dd1b4e165c883de0d4cf5381ea47a435b6f066d29345fa774fc76809",
+      "minimal_rank_proven": false,
+      "new_exponent_record_certified": false,
+      "rank_statement": "tensor_rank_over_Q <= 7",
+      "receipt_format": "matrix-mult-receipt-v1",
+      "square_recursion_bound": {
+        "exact_below_9_over_4_test": {
+          "left_r_to_4": 2401,
+          "right_n_to_9": 512,
+          "strictly_less": false
+        },
+        "model": "unit-cost exact arithmetic over Q; fixed-size block recursion",
+        "proof_reference": "docs/CERTIFICATE_CONTRACT.md#square-recursion-proof",
+        "record_novelty": "not_evaluated",
+        "statement": "omega_Q <= log_2(7)"
+      },
+      "status": "accepted_exact_identity",
+      "validator_sha256": "77d95473ba4e845579568b03036cbba7ee7320079cfda008b15bec0b3022282c"
+    }
+  ],
+  "status": "accepted"
+}

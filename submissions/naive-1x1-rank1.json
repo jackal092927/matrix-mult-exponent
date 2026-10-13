@@ -1,0 +1,22 @@
+{
+  "format": "matrix-mult-intake-v1",
+  "certificate": "certificates/baselines/naive-1x1-rank1.json",
+  "sha256": "c89c1ae7e180e358710019f02a69e1bc66e6f38191a505a6dea26193c18a884d",
+  "domain": "Q",
+  "dimensions": {
+    "m": 1,
+    "k": 1,
+    "n": 1
+  },
+  "declared_rank": 1,
+  "classification": "known_baseline",
+  "attribution": {
+    "authors": [
+      "matrix-mult-exponent contributors"
+    ],
+    "title": "Elementary scalar multiplication: independent baseline encoding",
+    "year": 2026,
+    "url": "https://github.com/jackal092927/matrix-mult-exponent"
+  },
+  "claim": "exact_identity"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "matrix-mult-intake-v1",
+  "certificate": "certificates/baselines/strassen-2x2-rank7.json",
+  "sha256": "84c5a6ba17ae8e9f44eb322529a94836f223df84bbe7ce54120fee3d2eb5da7e",
+  "domain": "Q",
+  "dimensions": {
+    "m": 2,
+    "k": 2,
+    "n": 2
+  },
+  "declared_rank": 7,
+  "classification": "known_baseline",
+  "attribution": {
+    "authors": [
+      "Volker Strassen"
+    ],
+    "title": "Gaussian elimination is not optimal",
+    "year": 1969,
+    "url": "https://doi.org/10.1007/BF02165411"
+  },
+  "claim": "square_recursion_bound"
+}

@@ -1,0 +1,23 @@
+{
+  "format": "matrix-mult-bilinear-v1",
+  "domain": "Q",
+  "dimensions": {
+    "m": 1,
+    "k": 1,
+    "n": 1
+  },
+  "declared_rank": 1,
+  "terms": [
+    {
+      "a": [
+        "1"
+      ],
+      "b": [
+        "1"
+      ],
+      "c": [
+        "1"
+      ]
+    }
+  ]
+}
